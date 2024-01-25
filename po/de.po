@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libgphoto2 master\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-01-10 10:46+0100\n"
+"POT-Creation-Date: 2024-01-26 00:32+0100\n"
 "PO-Revision-Date: 2024-01-10 11:15+0100\n"
 "Last-Translator: Marcus Meissner <marcus@jet.franken.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -801,8 +801,8 @@ msgstr "ISO-Empfindlichkeit"
 #: camlibs/pentax/library.c:686 camlibs/ptp2/config.c:6000
 #: camlibs/ptp2/config.c:6520 camlibs/ptp2/config.c:7390
 #: camlibs/ptp2/library.c:7982 camlibs/ptp2/ptp.c:8019 camlibs/ptp2/ptp.c:8199
-#: camlibs/ptp2/ptp.c:8289 camlibs/quicktake1x0/quicktake1x0.c:425
-#: camlibs/quicktake1x0/quicktake1x0.c:440
+#: camlibs/ptp2/ptp.c:8289 camlibs/quicktake1x0/quicktake1x0.c:426
+#: camlibs/quicktake1x0/quicktake1x0.c:441
 #, c-format
 msgid "Unknown"
 msgstr "Unbekannt"
@@ -1130,7 +1130,7 @@ msgid "Uploading file..."
 msgstr "Lade Bild hoch..."
 
 #: camlibs/canon/serial.c:1038 camlibs/digita/digita.c:247
-#: camlibs/directory/directory.c:553
+#: camlibs/directory/directory.c:554
 msgid "Getting file..."
 msgstr "Hole Datei..."
 
@@ -1507,7 +1507,7 @@ msgstr "Batterieladung: %1f Volt. Revision: %08x"
 
 #: camlibs/casio/casio-qv.c:253 camlibs/dimera/dimera3500.c:827
 #: camlibs/kodak/dc210/dc210.c:184 camlibs/polaroid/pdc700.c:970
-#: camlibs/quicktake1x0/quicktake1x0.c:793 camlibs/sierra/sierra-desc.c:193
+#: camlibs/quicktake1x0/quicktake1x0.c:794 camlibs/sierra/sierra-desc.c:193
 #: camlibs/sierra/sierra.c:899 camlibs/sierra/sierra.c:1491
 #: camlibs/topfield/puppy.c:537
 msgid "Camera Configuration"
@@ -1697,7 +1697,7 @@ msgstr ""
 #: camlibs/konica/qm150.c:853 camlibs/ptp2/config.c:1465
 #: camlibs/ptp2/config.c:1517 camlibs/ptp2/config.c:4097
 #: camlibs/ptp2/config.c:6108 camlibs/ptp2/config.c:9252
-#: camlibs/ptp2/ptp.c:7841 camlibs/quicktake1x0/quicktake1x0.c:807
+#: camlibs/ptp2/ptp.c:7841 camlibs/quicktake1x0/quicktake1x0.c:808
 #: camlibs/ricoh/library.c:488 camlibs/sierra/nikon-desc.c:273
 msgid "Flash"
 msgstr "Blitz"
@@ -1825,7 +1825,7 @@ msgid "Out of memory"
 msgstr "Kein Speicherplatz vorhanden"
 
 #: camlibs/dimera/dimera3500.c:623 camlibs/dimera/dimera3500.c:659
-#: camlibs/konica/qm150.c:251 camlibs/panasonic/coolshot/library.c:387
+#: camlibs/konica/qm150.c:251 camlibs/panasonic/coolshot/library.c:388
 #: camlibs/ricoh/g3.c:365 camlibs/samsung/samsung.c:204
 #: camlibs/sipix/web2.c:163 camlibs/smal/ultrapocket.c:142
 #: camlibs/smal/ultrapocket.c:190
@@ -1878,48 +1878,48 @@ msgstr "Problem beim Setzen der Kameradatenrate"
 msgid "Looks like a modem, not a camera"
 msgstr "Sieht wie ein Modem aus, nicht wie eine Kamera"
 
-#: camlibs/directory/directory.c:264
+#: camlibs/directory/directory.c:265
 #, c-format
 msgid "Listing files in '%s'..."
 msgstr "Liste Dateien in »%s«..."
 
-#: camlibs/directory/directory.c:338
+#: camlibs/directory/directory.c:339
 #, c-format
 msgid "Listing folders in '%s'..."
 msgstr "Liste Ordner in »%s«..."
 
-#: camlibs/directory/directory.c:358
+#: camlibs/directory/directory.c:359
 #, c-format
 msgid "Could not get information about '%s' (%s)."
 msgstr "Konnte keine Informationen über »%s« bekommen (%s)."
 
-#: camlibs/directory/directory.c:391
+#: camlibs/directory/directory.c:392
 #, c-format
 msgid "Could not get information about '%s' in '%s' (%s)."
 msgstr "Konnte keine Informationen über »%s« in »%s« bekommen (%s)."
 
-#: camlibs/directory/directory.c:439
+#: camlibs/directory/directory.c:440
 #, c-format
 msgid "Could not change time of file '%s' in '%s' (%s)."
 msgstr "Konnte die Zeit von Datei »%s« in »%s« nicht ändern (%s)."
 
-#: camlibs/directory/directory.c:527
+#: camlibs/directory/directory.c:528
 #, c-format
 msgid "Could not open '%s'."
 msgstr "Konnte »%s« nicht öffnen."
 
-#: camlibs/directory/directory.c:591
+#: camlibs/directory/directory.c:592
 msgid ""
 "The Directory Browse \"camera\" lets you index photos on your hard drive."
 msgstr ""
 "Der \"Kamera\" Ordnermodus erlaubt es Ihnen, \n"
 "Bilder auf der Festplatte zu indexieren."
 
-#: camlibs/directory/directory.c:600
+#: camlibs/directory/directory.c:601
 msgid "Directory Browse Mode - written by Scott Fritzinger <scottf@unr.edu>."
 msgstr "Ordner-Modus - geschrieben von Scott Fritzinger <scottf@unr.edu>."
 
-#: camlibs/directory/directory.c:648
+#: camlibs/directory/directory.c:649
 #, c-format
 msgid "Could not delete file '%s' in folder '%s' (error code %i: %s)."
 msgstr "Konnte die Datei »%s« in Ordner »%s« nicht löschen (Fehler: %i:%s)."
@@ -2055,7 +2055,7 @@ msgstr ""
 "Copyright 2020 Ondrej Zary <ondrej@zary.sk>\n"
 "basierend auf Docupen Tools von Florian Heinz <fh@cronon-ag.de>"
 
-#: camlibs/enigma13/enigma13.c:64
+#: camlibs/enigma13/enigma13.c:65
 msgid ""
 "Download program for Digital Dream Enigma 1.3. by <olivier@aixmarseille."
 "com>, and adapted from spca50x driver. Thank you, spca50x team, it was easy "
@@ -2301,12 +2301,12 @@ msgstr "Aufgenommene Bilder: %4d\n"
 msgid "jamcam library v"
 msgstr "jamcam-Bibliothek v"
 
-#: camlibs/jamcam/library.c:332 camlibs/jd11/serial.c:457
+#: camlibs/jamcam/library.c:332 camlibs/jd11/serial.c:458
 #: camlibs/sierra/library.c:1251 camlibs/sonydscf1/sonydscf1.c:259
 msgid "Downloading data..."
 msgstr "Daten herunterladen..."
 
-#: camlibs/jamcam/library.c:500 camlibs/jd11/serial.c:360
+#: camlibs/jamcam/library.c:500 camlibs/jd11/serial.c:361
 msgid "Downloading thumbnail..."
 msgstr "Vorschaubild herunterladen..."
 
@@ -2439,11 +2439,11 @@ msgstr ""
 "jl2005bcd Kamera Treiber\n"
 "Theodore Kilgore <kilgota@auburn.edu>\n"
 
-#: camlibs/kodak/dc120/dc120.c:79 camlibs/kodak/dc120/dc120.c:155
+#: camlibs/kodak/dc120/dc120.c:80 camlibs/kodak/dc120/dc120.c:156
 msgid "CompactFlash Card"
 msgstr "CompactFlash-Karte"
 
-#: camlibs/kodak/dc120/dc120.c:370
+#: camlibs/kodak/dc120/dc120.c:371
 msgid ""
 "The Kodak DC120 camera uses the KDC file format for storing images. If you "
 "want to view the images you download from your camera, you will need to "
@@ -2454,7 +2454,7 @@ msgstr ""
 "Ansehen der Kamerabilder benötigen Sie das \"kdc2tiff\"-Programm von http://"
 "kdc2tiff.sourceforge.net"
 
-#: camlibs/kodak/dc120/dc120.c:382
+#: camlibs/kodak/dc120/dc120.c:383
 msgid ""
 "Kodak DC120 Camera Library\n"
 "Scott Fritzinger <scottf@gphoto.net>\n"
@@ -2465,13 +2465,13 @@ msgstr ""
 "Scott Fritzinger <scottf@gphoto.net>\n"
 "(aufgrund öffentlichen Interesses)."
 
-#: camlibs/kodak/dc120/library.c:133 camlibs/kodak/dc210/library.c:439
+#: camlibs/kodak/dc120/library.c:135 camlibs/kodak/dc210/library.c:441
 #: camlibs/kodak/dc240/library.c:317 camlibs/panasonic/dc1000.c:407
 #: camlibs/panasonic/dc1580.c:531
 msgid "Getting data..."
 msgstr "Hole Daten..."
 
-#: camlibs/kodak/dc120/library.c:536
+#: camlibs/kodak/dc120/library.c:538
 msgid "Waiting for completion..."
 msgstr "Warte auf Beendigung..."
 
@@ -2726,7 +2726,7 @@ msgstr "Setze Uhr in Kamera"
 msgid "Port speed"
 msgstr "Portgeschwindigkeit"
 
-#: camlibs/kodak/dc210/dc210.c:316 camlibs/kodak/dc210/library.c:695
+#: camlibs/kodak/dc210/dc210.c:316 camlibs/kodak/dc210/library.c:697
 msgid "Album name"
 msgstr "Albumname"
 
@@ -2945,19 +2945,19 @@ msgstr ""
 "Kamerabibliothek für die Kodak DC215 Zoom.\n"
 "Michael Koltan <koltan@gmx.de>\n"
 
-#: camlibs/kodak/dc210/library.c:347
+#: camlibs/kodak/dc210/library.c:349
 msgid "Waiting..."
 msgstr "Warten..."
 
-#: camlibs/kodak/dc210/library.c:1367
+#: camlibs/kodak/dc210/library.c:1369
 msgid "Parameter 1"
 msgstr "Parameter 1"
 
-#: camlibs/kodak/dc210/library.c:1371
+#: camlibs/kodak/dc210/library.c:1373
 msgid "Parameter 2"
 msgstr "Parameter 2"
 
-#: camlibs/kodak/dc210/library.c:1375
+#: camlibs/kodak/dc210/library.c:1377
 msgid "Parameter 3"
 msgstr "Parameter 3"
 
@@ -3531,7 +3531,7 @@ msgstr "Mittel"
 #: camlibs/ptp2/config.c:7060 camlibs/ptp2/config.c:7070
 #: camlibs/ptp2/config.c:7293 camlibs/ptp2/ptp.c:7901 camlibs/ptp2/ptp.c:8335
 #: camlibs/ptp2/ptp.c:8341 camlibs/ptp2/ptp.c:8347
-#: camlibs/quicktake1x0/quicktake1x0.c:423 camlibs/sierra/sierra.c:912
+#: camlibs/quicktake1x0/quicktake1x0.c:424 camlibs/sierra/sierra.c:912
 #: camlibs/sierra/sierra.c:920 camlibs/sierra/sierra.c:953
 #: camlibs/sierra/sierra.c:962 camlibs/sierra/sierra.c:1250
 #: camlibs/sierra/sierra.c:1283
@@ -3958,7 +3958,7 @@ msgstr "Fein"
 #: camlibs/ptp2/config.c:2380 camlibs/ptp2/config.c:4498
 #: camlibs/ptp2/config.c:6955 camlibs/ptp2/config.c:6992
 #: camlibs/ptp2/ptp.c:8334 camlibs/ptp2/ptp.c:8340 camlibs/ptp2/ptp.c:8346
-#: camlibs/ptp2/ptp.c:8350 camlibs/quicktake1x0/quicktake1x0.c:421
+#: camlibs/ptp2/ptp.c:8350 camlibs/quicktake1x0/quicktake1x0.c:422
 #: camlibs/sierra/sierra.c:911 camlibs/sierra/sierra.c:918
 #: camlibs/sierra/sierra.c:1248
 msgid "Standard"
@@ -4436,7 +4436,7 @@ msgid ""
 msgstr ""
 "Der Aufnahme Modus muss auf \"B\" geschaltet werden für Langzeitbelichtung."
 
-#: camlibs/polaroid/pdc320.c:445
+#: camlibs/polaroid/pdc320.c:446
 msgid ""
 "Download program for several Polaroid cameras. Originally written by Peter "
 "Desnoyers <pjd@fred.cambridge.ma.us>, and adapted for gphoto2 by Nathan "
@@ -4450,7 +4450,7 @@ msgstr ""
 "Müller <lutz@users.sf.net>.\n"
 "Polaroid 640SE Tests durch Michael Golden <naugrim@juno.com>."
 
-#: camlibs/polaroid/pdc320.c:475
+#: camlibs/polaroid/pdc320.c:476
 #, c-format
 msgid "Model: %x, %x, %x, %x"
 msgstr "Modell: %x, %x, %x, %x"
@@ -4819,7 +4819,7 @@ msgstr "Manuell"
 #: camlibs/ptp2/config.c:1460 camlibs/ptp2/config.c:1510
 #: camlibs/ptp2/config.c:6018 camlibs/ptp2/config.c:9248
 #: camlibs/ptp2/ptp.c:7836 camlibs/ptp2/ptp.c:7847
-#: camlibs/quicktake1x0/quicktake1x0.c:434
+#: camlibs/quicktake1x0/quicktake1x0.c:435
 msgid "Automatic"
 msgstr "Automatisch"
 
@@ -8450,12 +8450,6 @@ msgstr "Automatisch Kalt"
 #: camlibs/ptp2/config.c:9266
 msgid "Automatic Warm"
 msgstr "Automatisch Warm"
-
-#: camlibs/ptp2/config.c:9385 camlibs/ptp2/config.c:9457
-#: camlibs/ptp2/config.c:9556
-#, c-format
-msgid "%d"
-msgstr ""
 
 #: camlibs/ptp2/config.c:9395 camlibs/ptp2/config.c:9470
 #: camlibs/ptp2/config.c:9566 camlibs/ptp2/config.c:9664
@@ -12747,7 +12741,7 @@ msgstr "Unbekannter PTP OpCode"
 msgid "Unknown VendorExtensionID"
 msgstr "Unbekannte Hersteller Erweiterungen ID"
 
-#: camlibs/quicktake1x0/quicktake1x0.c:392
+#: camlibs/quicktake1x0/quicktake1x0.c:393
 msgid ""
 "The Apple QuickTake 1x0 driver has been written by Colin Leroy-Mira "
 "<colin@colino.net>.\n"
@@ -12757,26 +12751,26 @@ msgid ""
 "camera to take pictures."
 msgstr ""
 
-#: camlibs/quicktake1x0/quicktake1x0.c:436
+#: camlibs/quicktake1x0/quicktake1x0.c:437
 msgid "Disabled"
 msgstr "Abgeschaltet"
 
-#: camlibs/quicktake1x0/quicktake1x0.c:438
+#: camlibs/quicktake1x0/quicktake1x0.c:439
 #, fuzzy
 msgid "Forced"
 msgstr "Immer"
 
-#: camlibs/quicktake1x0/quicktake1x0.c:795
+#: camlibs/quicktake1x0/quicktake1x0.c:796
 #, fuzzy
 msgid "Camera name"
 msgstr "Kamerabesitzer"
 
-#: camlibs/quicktake1x0/quicktake1x0.c:800
+#: camlibs/quicktake1x0/quicktake1x0.c:801
 #, fuzzy
 msgid "Image quality"
 msgstr "Bildqualität"
 
-#: camlibs/quicktake1x0/quicktake1x0.c:815
+#: camlibs/quicktake1x0/quicktake1x0.c:816
 #, fuzzy
 msgid "Camera date"
 msgstr "Kameramodus"
@@ -15168,4 +15162,3 @@ msgstr "Unbekannter Fehler"
 #~ msgstr ""
 #~ "Konnte »%s« nicht an Verzeichnis »%s« anhängen, da diese Datei bereits "
 #~ "existiert."
-
