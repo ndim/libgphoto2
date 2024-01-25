@@ -1,14 +1,14 @@
 # List of source files which contain translatable strings.
-libgphoto2_port/gphoto2-port-info-list.c
-libgphoto2_port/gphoto2-port-log.c
-libgphoto2_port/gphoto2-port-result.c
-libgphoto2_port/gphoto2-port.c
-disk/disk.c
-libusb1/libusb1.c
-ptpip/ptpip.c
-serial/unix.c
-usb/libusb.c
-usbdiskdirect/linux.c
-usbscsi/linux.c
-vusb/vcamera.c
-vusb/vusb.c
+libgphoto2_port/libgphoto2_port/gphoto2-port-info-list.c
+libgphoto2_port/libgphoto2_port/gphoto2-port-log.c
+libgphoto2_port/libgphoto2_port/gphoto2-port-result.c
+libgphoto2_port/libgphoto2_port/gphoto2-port.c
+libgphoto2_port/disk/disk.c
+libgphoto2_port/libusb1/libusb1.c
+libgphoto2_port/ptpip/ptpip.c
+libgphoto2_port/serial/unix.c
+libgphoto2_port/usb/libusb.c
+libgphoto2_port/usbdiskdirect/linux.c
+libgphoto2_port/usbscsi/linux.c
+libgphoto2_port/vusb/vcamera.c
+libgphoto2_port/vusb/vusb.c

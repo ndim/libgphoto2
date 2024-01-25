@@ -10,6 +10,8 @@ EXTRA_DIST += HACKING.md SECURITY.md
 
 # Note: $(subdirs) lists all the directories from AC_CONFIG_SUBDIRS()
 SUBDIRS  = $(subdirs)
+SUBDIRS += libgphoto2_port
+SUBDIRS += libgphoto2_port/po
 SUBDIRS += libgphoto2
 SUBDIRS += camlibs
 SUBDIRS += tests

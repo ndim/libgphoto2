@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libgphoto2_port 2.5.28\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-01-30 17:43+0100\n"
+"POT-Creation-Date: 2024-01-30 18:01+0100\n"
 "PO-Revision-Date: 2023-02-11 06:08+0000\n"
 "Last-Translator: Fabio T. <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
@@ -20,149 +20,150 @@ msgstr ""
 "X-Editor: HaiPO 1.4 beta\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: libgphoto2_port/gphoto2-port-info-list.c:454
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-info-list.c:454
 msgid "Generic Port"
 msgstr "Puarte gjeneriche"
 
-#: libgphoto2_port/gphoto2-port-result.c:42
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:42
 msgid "No error"
 msgstr "Nissun erôr"
 
-#: libgphoto2_port/gphoto2-port-result.c:44
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:44
 msgid "Unspecified error"
 msgstr "Erôr no specificât"
 
-#: libgphoto2_port/gphoto2-port-result.c:46
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:46
 msgid "I/O problem"
 msgstr "Probleme di I/O"
 
-#: libgphoto2_port/gphoto2-port-result.c:48
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:48
 msgid "Bad parameters"
 msgstr "Parametris sbaliâts"
 
-#: libgphoto2_port/gphoto2-port-result.c:50
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:50
 msgid "Unsupported operation"
 msgstr "Operazion no supuartade"
 
-#: libgphoto2_port/gphoto2-port-result.c:52
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:52
 msgid "Fixed limit exceeded"
 msgstr "Limit fis superât"
 
-#: libgphoto2_port/gphoto2-port-result.c:54
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:54
 msgid "Timeout reading from or writing to the port"
 msgstr "Timp scjadût tal lei de o tal scrivi su la puarte"
 
-#: libgphoto2_port/gphoto2-port-result.c:56
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:56
 msgid "Serial port not supported"
 msgstr "Puarte seriâl no supuartade"
 
-#: libgphoto2_port/gphoto2-port-result.c:58
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:58
 msgid "USB port not supported"
 msgstr "Puarte USB no supuartade"
 
-#: libgphoto2_port/gphoto2-port-result.c:60
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:60
 msgid "Unknown port"
 msgstr "Puarte no cognossude"
 
-#: libgphoto2_port/gphoto2-port-result.c:62
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:62
 msgid "Out of memory"
 msgstr "Memorie finide"
 
-#: libgphoto2_port/gphoto2-port-result.c:64
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:64
 msgid "Error loading a library"
 msgstr "Erôr tal cjariâ une librarie"
 
-#: libgphoto2_port/gphoto2-port-result.c:66
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:66
 msgid "Error initializing the port"
 msgstr "Erôr tal inizializâ la puarte "
 
-#: libgphoto2_port/gphoto2-port-result.c:68
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:68
 msgid "Error reading from the port"
 msgstr "Erôr tal lei de puarte"
 
-#: libgphoto2_port/gphoto2-port-result.c:70
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:70
 msgid "Error writing to the port"
 msgstr "Erôr tal scrivi su la puarte"
 
-#: libgphoto2_port/gphoto2-port-result.c:72
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:72
 msgid "Error updating the port settings"
 msgstr "Erôr tal inzornâ lis impostazions de puarte"
 
-#: libgphoto2_port/gphoto2-port-result.c:74
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:74
 msgid "Error setting the serial port speed"
 msgstr "Erôr tal configurâ la velocitât de puarte seriâl"
 
-#: libgphoto2_port/gphoto2-port-result.c:76
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:76
 msgid "Error clearing a halt condition on the USB port"
 msgstr "Erôr tal netâ une condizion di halt su la puarte USB"
 
-#: libgphoto2_port/gphoto2-port-result.c:78
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:78
 msgid "Could not find the requested device on the USB port"
 msgstr "Nol è stât pussibil cjatâ su la puarte USB il dispositîf domandât"
 
-#: libgphoto2_port/gphoto2-port-result.c:80
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:80
 msgid "Could not claim the USB device"
 msgstr "Nol è stât pussibil rivendicâ il dispositîf USB"
 
-#: libgphoto2_port/gphoto2-port-result.c:82
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:82
 msgid "Could not lock the device"
 msgstr "Nol è stât pussibil blocâ il dispositîf"
 
-#: libgphoto2_port/gphoto2-port-result.c:84
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:84
 msgid "libhal error"
 msgstr "Erôr di libhal"
 
-#: libgphoto2_port/gphoto2-port-result.c:86
+#: libgphoto2_port/libgphoto2_port/gphoto2-port-result.c:86
 msgid "Unknown error"
 msgstr "Erôr no cognossût"
 
-#: libgphoto2_port/gphoto2-port.c:48
+#: libgphoto2_port/libgphoto2_port/gphoto2-port.c:48
 #, c-format
 msgid "The operation '%s' is not supported by this device"
 msgstr "La operazion '%s' no je supuartade di chest dispositîf"
 
-#: libgphoto2_port/gphoto2-port.c:49
+#: libgphoto2_port/libgphoto2_port/gphoto2-port.c:49
 msgid "The port has not yet been initialized"
 msgstr "La puarte no je stade ancjemò inizializade"
 
-#: libgphoto2_port/gphoto2-port.c:687
+#: libgphoto2_port/libgphoto2_port/gphoto2-port.c:687
 msgid "low"
 msgstr "bas"
 
-#: libgphoto2_port/gphoto2-port.c:688
+#: libgphoto2_port/libgphoto2_port/gphoto2-port.c:688
 msgid "high"
 msgstr "alt"
 
-#: libgphoto2_port/gphoto2-port.c:1216
+#: libgphoto2_port/libgphoto2_port/gphoto2-port.c:1216
 msgid "No error description available"
 msgstr "Nissune descrizion di erôr disponibile"
 
-#: disk/disk.c:133 disk/disk.c:134 disk/disk.c:212 disk/disk.c:213
-#: disk/disk.c:253 disk/disk.c:276
+#: libgphoto2_port/disk/disk.c:133 libgphoto2_port/disk/disk.c:134
+#: libgphoto2_port/disk/disk.c:212 libgphoto2_port/disk/disk.c:213
+#: libgphoto2_port/disk/disk.c:253 libgphoto2_port/disk/disk.c:276
 #, c-format
 msgid "Media '%s'"
 msgstr "Supuart '%s'"
 
-#: libusb1/libusb1.c:484 usb/libusb.c:248
+#: libgphoto2_port/libusb1/libusb1.c:484 libgphoto2_port/usb/libusb.c:248
 #, c-format
 msgid "Could not open USB device (%s)."
 msgstr "Impussibil vierzi il dispositîf USB (%s)."
 
-#: libusb1/libusb1.c:494 usb/libusb.c:261
+#: libgphoto2_port/libusb1/libusb1.c:494 libgphoto2_port/usb/libusb.c:261
 msgid "Camera is already in use."
 msgstr "La fotocjamare e je za in ûs."
 
-#: libusb1/libusb1.c:503
+#: libgphoto2_port/libusb1/libusb1.c:503
 msgid "Could not detach kernel driver of camera device."
 msgstr ""
 "Nol è stât pussibil distacâ il driver dal kerne dal dispositîf de "
 "fotocjamare."
 
-#: libusb1/libusb1.c:509 usb/libusb.c:274
+#: libgphoto2_port/libusb1/libusb1.c:509 libgphoto2_port/usb/libusb.c:274
 msgid "Could not query kernel driver of device."
 msgstr "Nol è stât pussibil interogâ il driver dal kernel dal dispositîf."
 
-#: libusb1/libusb1.c:516 usb/libusb.c:283
+#: libgphoto2_port/libusb1/libusb1.c:516 libgphoto2_port/usb/libusb.c:283
 #, c-format
 msgid ""
 "Could not claim interface %d (%s). Make sure no other program (%s) or kernel "
@@ -173,42 +174,43 @@ msgstr ""
 "altri program (%s) o modul di kernel (come %s) al stedi doprant il "
 "dispositîf e che tu vedis acès in leture/scriture al dispositîf."
 
-#: libusb1/libusb1.c:527 usb/libusb.c:295
+#: libgphoto2_port/libusb1/libusb1.c:527 libgphoto2_port/usb/libusb.c:295
 msgid "MacOS PTPCamera service"
 msgstr "Servizi PTPCamera di MacOS"
 
-#: libusb1/libusb1.c:529 usb/libusb.c:297
+#: libgphoto2_port/libusb1/libusb1.c:529 libgphoto2_port/usb/libusb.c:297
 msgid "unknown libgphoto2 using program"
 msgstr "program che al dopre libgphoto2 no cognossût"
 
-#: libusb1/libusb1.c:601 usb/libusb.c:314
+#: libgphoto2_port/libusb1/libusb1.c:601 libgphoto2_port/usb/libusb.c:314
 #, c-format
 msgid "Could not release interface %d (%s)."
 msgstr "Nol è stât pussibil molâ la interface %d (%s)."
 
-#: libusb1/libusb1.c:615 usb/libusb.c:329
+#: libgphoto2_port/libusb1/libusb1.c:615 libgphoto2_port/usb/libusb.c:329
 #, c-format
 msgid "Could not reset USB port (%s)."
 msgstr "Nol è stât pussibil azerâ la puarte USB (%s)."
 
-#: libusb1/libusb1.c:624
+#: libgphoto2_port/libusb1/libusb1.c:624
 msgid "Could not reattach kernel driver of camera device."
 msgstr ""
 "Nol è stât pussibil tornâ a tacâ il driver dal kernel dal dispositîf de "
 "fotocjamare."
 
-#: libusb1/libusb1.c:1061 usb/libusb.c:621
+#: libgphoto2_port/libusb1/libusb1.c:1061 libgphoto2_port/usb/libusb.c:621
 #, c-format
 msgid "Could not set config %d/%d (%s)"
 msgstr "Nol è stât pussibil stabilî la configurazion %d/%d (%s)"
 
-#: libusb1/libusb1.c:1090 usb/libusb.c:652
+#: libgphoto2_port/libusb1/libusb1.c:1090 libgphoto2_port/usb/libusb.c:652
 #, c-format
 msgid "Could not set altsetting from %d to %d (%s)"
 msgstr "Nol è stât pussibil configurâ altsetting di %d a %d (%s)"
 
-#: libusb1/libusb1.c:1224 libusb1/libusb1.c:1316 usb/libusb.c:812
-#: usb/libusb.c:898
+#: libgphoto2_port/libusb1/libusb1.c:1224
+#: libgphoto2_port/libusb1/libusb1.c:1316 libgphoto2_port/usb/libusb.c:812
+#: libgphoto2_port/usb/libusb.c:898
 #, c-format
 msgid ""
 "Could not find USB device (vendor 0x%x, product 0x%x). Make sure this device "
@@ -217,12 +219,12 @@ msgstr ""
 "Nol è stât pussibil cjatâ il dispositîf USB (produtôr 0x%x, prodot 0x%x). "
 "Controle che chest dispositîf al sedi colegât al computer."
 
-#: libusb1/libusb1.c:1255 usb/libusb.c:741
+#: libgphoto2_port/libusb1/libusb1.c:1255 libgphoto2_port/usb/libusb.c:741
 #, c-format
 msgid "The supplied vendor or product id (0x%x,0x%x) is not valid."
 msgstr "Il produtôr indicât o l'id dal prodot (0x%x,0x%x) nol è valit."
 
-#: libusb1/libusb1.c:1605 usb/libusb.c:1191
+#: libgphoto2_port/libusb1/libusb1.c:1605 libgphoto2_port/usb/libusb.c:1191
 #, c-format
 msgid ""
 "Could not find USB device (class 0x%x, subclass 0x%x, protocol 0x%x). Make "
@@ -231,167 +233,169 @@ msgstr ""
 "Nol è stât pussibil cjatâ il dispositîf USB (classe 0x%x, sot-classe 0x%x, "
 "protocol 0x%x). Controle che chest dispositîf al sedi colegât al computer."
 
-#: ptpip/ptpip.c:161
+#: libgphoto2_port/ptpip/ptpip.c:161
 msgid "PTP/IP Connection"
 msgstr "Conession PTP/IP"
 
-#: ptpip/ptpip.c:174
+#: libgphoto2_port/ptpip/ptpip.c:174
 msgid "IP Connection"
 msgstr "Conession IP"
 
-#: serial/unix.c:210
+#: libgphoto2_port/serial/unix.c:210
 #, c-format
 msgid "Could not lock device '%s'"
 msgstr "Nol è stât pussibil blocâ il dispositîf '%s'"
 
-#: serial/unix.c:220 usbdiskdirect/linux.c:79
+#: libgphoto2_port/serial/unix.c:220 libgphoto2_port/usbdiskdirect/linux.c:79
 #, c-format
 msgid "Device '%s' is locked by pid %d"
 msgstr "Il dispositîf '%s' al è blocât dal pid %d"
 
-#: serial/unix.c:223 usbdiskdirect/linux.c:82
+#: libgphoto2_port/serial/unix.c:223 libgphoto2_port/usbdiskdirect/linux.c:82
 #, c-format
 msgid "Device '%s' could not be locked (dev_lock returned %d)"
 msgstr ""
 "Nol è stât pussibil blocâ il dispositîf '%s' (dev_lock  al à tornât %d)"
 
-#: serial/unix.c:252
+#: libgphoto2_port/serial/unix.c:252
 #, c-format
 msgid "Device '%s' could not be unlocked."
 msgstr "Nol è stât pussibil sblocâ il dispositîf '%s'."
 
-#: serial/unix.c:264 usbdiskdirect/linux.c:111
+#: libgphoto2_port/serial/unix.c:264 libgphoto2_port/usbdiskdirect/linux.c:111
 #, c-format
 msgid "Device '%s' could not be unlocked as it is locked by pid %d."
 msgstr ""
 "Nol è stât pussibil sblocâ il dispositîf '%s' viodût che al è blocât dal pid "
 "%d."
 
-#: serial/unix.c:268 usbdiskdirect/linux.c:115
+#: libgphoto2_port/serial/unix.c:268 libgphoto2_port/usbdiskdirect/linux.c:115
 #, c-format
 msgid "Device '%s' could not be unlocked (dev_unlock returned %d)"
 msgstr ""
 "Nol è stât pussibil sblocâ il dispositîf '%s' (dev_unlock al à tornât %d)"
 
-#: serial/unix.c:314
+#: libgphoto2_port/serial/unix.c:314
 #, c-format
 msgid "Serial Port %i"
 msgstr "Puarte seriâl %i"
 
-#: serial/unix.c:327
+#: libgphoto2_port/serial/unix.c:327
 msgid "Serial Port Device"
 msgstr "Dispositîf de puarte seriâl"
 
-#: serial/unix.c:403
+#: libgphoto2_port/serial/unix.c:403
 #, c-format
 msgid "Failed to open '%s' (%s)."
 msgstr "Impussibil vierzi '%s' (%s)."
 
-#: serial/unix.c:423
+#: libgphoto2_port/serial/unix.c:423
 #, c-format
 msgid "Could not close '%s' (%s)."
 msgstr "Nol è stât pussibil sierâ '%s' (%s)."
 
-#: serial/unix.c:479
+#: libgphoto2_port/serial/unix.c:479
 #, c-format
 msgid "Could not write to port (%s)"
 msgstr "Nol è stât pussibil scrivi su la puarte (%s)"
 
-#: serial/unix.c:554
+#: libgphoto2_port/serial/unix.c:554
 msgid "Parity error."
 msgstr "Erôr di paritât."
 
-#: serial/unix.c:558
+#: libgphoto2_port/serial/unix.c:558
 #, c-format
 msgid "Unexpected parity response sequence 0xff 0x%02x."
 msgstr "Secuence di rispueste de paritât 0xff 0x%02x inspietade."
 
-#: serial/unix.c:601
+#: libgphoto2_port/serial/unix.c:601
 #, c-format
 msgid "Unknown pin %i."
 msgstr "Pin %i no cognossût."
 
-#: serial/unix.c:623
+#: libgphoto2_port/serial/unix.c:623
 #, c-format
 msgid "Could not get level of pin %i (%s)."
 msgstr "Nol è stât pussibil otignî il nivel dal pin %i (%s)."
 
-#: serial/unix.c:659
+#: libgphoto2_port/serial/unix.c:659
 #, c-format
 msgid "Could not set level of pin %i to %i (%s)."
 msgstr "Nol è stât pussibil stabilî il nivel dal pin %i a %i (%s)."
 
-#: serial/unix.c:686
+#: libgphoto2_port/serial/unix.c:686
 #, c-format
 msgid "Could not flush '%s' (%s)."
 msgstr "Nol è stât pussibil disvuedâ '%s' (%s)."
 
-#: serial/unix.c:781
+#: libgphoto2_port/serial/unix.c:781
 #, c-format
 msgid "Could not set the baudrate to %d"
 msgstr "Nol è stât pussibil configurâ la velocitât di trasmission a %d"
 
-#: usb/libusb.c:269
+#: libgphoto2_port/usb/libusb.c:269
 #, c-format
 msgid "Could not detach kernel driver '%s' of camera device."
 msgstr ""
 "Nol è stât pussibil distacâ il driver dal kernel '%s' dal dispositîf de "
 "fotocjamare."
 
-#: usb/libusb.c:359
+#: libgphoto2_port/usb/libusb.c:359
 #, c-format
 msgid "Could not close USB port (%s)."
 msgstr "Nol è stât pussibil sierâ la puarte USB (%s)."
 
-#: usbdiskdirect/linux.c:218
+#: libgphoto2_port/usbdiskdirect/linux.c:218
 msgid "USB Mass Storage direct IO"
 msgstr "IO diret de memorie di masse USB"
 
-#: usbdiskdirect/linux.c:269 usbscsi/linux.c:253
+#: libgphoto2_port/usbdiskdirect/linux.c:269
+#: libgphoto2_port/usbscsi/linux.c:253
 #, c-format
 msgid "Failed to open '%s' (%m)."
 msgstr "Impussibil vierzi '%s' (%m)."
 
-#: usbdiskdirect/linux.c:283 usbscsi/linux.c:281
+#: libgphoto2_port/usbdiskdirect/linux.c:283
+#: libgphoto2_port/usbscsi/linux.c:281
 #, c-format
 msgid "Could not close '%s' (%m)."
 msgstr "Nol è stât pussibil sierâ '%s' (%m)."
 
-#: usbdiskdirect/linux.c:307
+#: libgphoto2_port/usbdiskdirect/linux.c:307
 #, c-format
 msgid "Could not seek to offset: %x on '%s' (%m)."
 msgstr "Nol è stât pussibil cirî fin te deviazion: %x su '%s' (%m)."
 
-#: usbdiskdirect/linux.c:329
+#: libgphoto2_port/usbdiskdirect/linux.c:329
 #, c-format
 msgid "Could not write to '%s' (%m)."
 msgstr "Nol è stât pussibil scrivi su '%s' (%m)."
 
-#: usbdiskdirect/linux.c:350
+#: libgphoto2_port/usbdiskdirect/linux.c:350
 #, c-format
 msgid "Could not read from '%s' (%m)."
 msgstr "Nol è stât pussibil lei di '%s' (%m)."
 
-#: usbscsi/linux.c:92
+#: libgphoto2_port/usbscsi/linux.c:92
 #, c-format
 msgid "Device '%s' is locked by another app."
 msgstr "Il dispositîf '%s' al è blocât di une altre aplicazion."
 
-#: usbscsi/linux.c:97
+#: libgphoto2_port/usbscsi/linux.c:97
 #, c-format
 msgid "Failed to lock '%s' (%m)."
 msgstr "Impussibil blocâ '%s' (%m)."
 
-#: usbscsi/linux.c:113
+#: libgphoto2_port/usbscsi/linux.c:113
 #, c-format
 msgid "Failed to unlock '%s' (%m)."
 msgstr "Impussibil sblocâ '%s' (%m)."
 
-#: usbscsi/linux.c:214
+#: libgphoto2_port/usbscsi/linux.c:214
 msgid "USB Mass Storage raw SCSI"
 msgstr "SCSI grês de memorie di masse USB"
 
-#: usbscsi/linux.c:325
+#: libgphoto2_port/usbscsi/linux.c:325
 #, c-format
 msgid "Could not send scsi command to: '%s' (%m)."
 msgstr "Nol è stât pussibil inviâ il comant scsi a: '%s' (%m)."

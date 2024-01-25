@@ -17,8 +17,8 @@ libgphoto2_port_la_LDFLAGS       =
 libgphoto2_port_la_LIBADD        =
 libgphoto2_port_la_SOURCES       =
 
-libgphoto2_port_la_CPPFLAGS     += -I$(top_srcdir)
 libgphoto2_port_la_CPPFLAGS     += -I$(top_srcdir)/libgphoto2_port
+libgphoto2_port_la_CPPFLAGS     += -I$(top_srcdir)/libgphoto2_port/libgphoto2_port
 libgphoto2_port_la_CPPFLAGS     += $(AM_CPPFLAGS)
 
 libgphoto2_port_la_LDFLAGS      += -no-undefined
@@ -73,6 +73,6 @@ libgphoto2_port_la_SOURCES      += gphoto2-port.c
 libgphoto2_port_la_SOURCES      += gphoto2-port-portability.c
 libgphoto2_port_la_SOURCES      += gphoto2-port-result.c
 
-libgphoto2_port_la_DEPENDENCIES += $(top_srcdir)/gphoto2/gphoto2-port-locking.h
-libgphoto2_port_la_DEPENDENCIES += $(top_srcdir)/gphoto2/gphoto2-port-version.h
-libgphoto2_port_la_DEPENDENCIES += $(top_srcdir)/gphoto2/gphoto2-port-library.h
+libgphoto2_port_la_DEPENDENCIES += $(top_srcdir)/libgphoto2_port/gphoto2/gphoto2-port-locking.h
+libgphoto2_port_la_DEPENDENCIES += $(top_srcdir)/libgphoto2_port/gphoto2/gphoto2-port-version.h
+libgphoto2_port_la_DEPENDENCIES += $(top_srcdir)/libgphoto2_port/gphoto2/gphoto2-port-library.h

@@ -27,15 +27,12 @@ bin_SCRIPTS = gphoto2-port-config
 # The . stands for the current dir, i.e. the iolibs to build.
 # Make sure the iolibs are built before running tests on them.
 SUBDIRS  =
-SUBDIRS += po
 SUBDIRS += libgphoto2_port
 SUBDIRS += .
 SUBDIRS += tests
 SUBDIRS += doc
 
 include gphoto-m4/Makefile-files
-
-@GP_GETTEXT_SETUP_MK@
 
 # Dummy target to force Automake to make the all target depend on it
 all-local:
@@ -57,14 +54,14 @@ iolib_LTLIBRARIES = $(IOLIB_LTLIST)
 ########################################################################
 # Define the compile/link/etc. flags common to all iolibs in one place,
 # i.e. here.
-iolib_dependencies = $(top_srcdir)/iolib.sym
+iolib_dependencies = $(top_srcdir)/libgphoto2_port/iolib.sym
 iolib_ldflags = -module -no-undefined -avoid-version \
 	-export-dynamic \
-        -export-symbols $(top_srcdir)/iolib.sym \
+        -export-symbols $(top_srcdir)/libgphoto2_port/iolib.sym \
 	-rpath '$(iolibdir)'
-iolib_libadd = $(top_builddir)/libgphoto2_port/libgphoto2_port.la
+iolib_libadd = $(top_builddir)/libgphoto2_port/libgphoto2_port/libgphoto2_port.la
 
-AM_CPPFLAGS += -I$(top_srcdir)
+AM_CPPFLAGS += -I$(top_srcdir)/libgphoto2_port
 
 include disk/Makefile-files
 include ptpip/Makefile-files
@@ -89,8 +86,6 @@ EXTRA_DIST +=   		\
 	gphoto2-port-config.in
 
 doc_DATA = AUTHORS README NEWS
-
-ACLOCAL_AMFLAGS = -I auto-m4 -I gphoto-m4
 
 EXTRA_DIST    += libgphoto2_port.pc.in
 pkgconfig_DATA = libgphoto2_port.pc
