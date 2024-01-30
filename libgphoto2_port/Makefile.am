@@ -32,8 +32,6 @@ SUBDIRS += .
 SUBDIRS += tests
 SUBDIRS += doc
 
-include gphoto-m4/Makefile-files
-
 # Dummy target to force Automake to make the all target depend on it
 all-local:
 	@:

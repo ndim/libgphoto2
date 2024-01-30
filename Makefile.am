@@ -139,6 +139,6 @@ distclean-local:
 # are required in the top level Makefile.am for the automatic
 # re-building of the build system files.
 
-ACLOCAL_AMFLAGS = -I auto-m4 -I libgphoto2_port/gphoto-m4
+ACLOCAL_AMFLAGS = -I auto-m4 -I gphoto-m4
 
-include libgphoto2_port/gphoto-m4/Makefile-files
+include gphoto-m4/Makefile-files
